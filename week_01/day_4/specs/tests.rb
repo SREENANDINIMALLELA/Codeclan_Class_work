@@ -17,9 +17,4 @@ class TestFile < MiniTest::Test
   def test_fizz_buzz_2_returns_2_as_string
    assert_equal("2", fizz_buzz(2))
   end
-  def test_fizz_buzz_2_returns_2_as_string
-   assert_equal("2", fizz_buzz(2))
-  end
-
-
-    end
+end
